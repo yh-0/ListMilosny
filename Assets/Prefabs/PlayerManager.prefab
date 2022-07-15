@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7060300306110498545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3682839494261689351}
+  - component: {fileID: 6066804725339206008}
+  - component: {fileID: 5536803638143328123}
+  - component: {fileID: 6111904722154803962}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3682839494261689351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060300306110498545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 504.26596, y: 273.46863, z: -1076.4624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6066804725339206008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060300306110498545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 26a749372a74598459e5658c9397f542
+  hasSpawned: 0
+--- !u!114 &5536803638143328123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060300306110498545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 0
+  localPositionSensitivity: 0.01
+  localRotationSensitivity: 0.01
+  localScaleSensitivity: 0.01
+  compressRotation: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  syncScale: 1
+--- !u!114 &6111904722154803962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060300306110498545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e500786ca17824b9d007b7c2661978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Card1straznik: {fileID: 8504700486607587071, guid: 5f96299e7b8536d4b92e1a242367204e,
+    type: 3}
+  Card2kaplan: {fileID: 5044373664455362181, guid: b11ce7b43b258444eb0c43b71a252c6c,
+    type: 3}
+  Card3baron: {fileID: 7095936881518892735, guid: a63f3180f31a7a94886de047b1d50a69,
+    type: 3}
+  Card4sluzaca: {fileID: 8613650680449964536, guid: 4821a083598799a42948e7128e3e3cff,
+    type: 3}
+  Card5ksiaze: {fileID: 4100116399897727895, guid: b6c5ae61f64bfb743b3738e0a653ad95,
+    type: 3}
+  Card7krol: {fileID: 8741431424131365027, guid: 4be75fb199e8fab42a498c68af34aaf3,
+    type: 3}
+  Card8hrabina: {fileID: 281009577936213935, guid: 226b4610ca0c8cc4f82ebd59241cca3d,
+    type: 3}
+  Card9krolewna: {fileID: 4856082659777748370, guid: 8b2e19937383e6541ba7e5a6e42fbc1c,
+    type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
